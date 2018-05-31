@@ -1,6 +1,6 @@
 ---
-layout: post
-title: "Installing VM"
+
+title: "Installing VM on VMWare"
 ---
 
 ## Basic installation steps
