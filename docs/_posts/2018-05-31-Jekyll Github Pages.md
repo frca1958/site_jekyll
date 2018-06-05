@@ -39,6 +39,14 @@ cd docs
 bundle exec jekyll serve -H 0.0.0.0
 ```
 
+### Publish site online
+
+The website is published automatically when a page is changed.
+This must be enabled on Github. This is the procedure in the github online UI:
+- select the repo
+- select 'settings' (in the repo menu on the far right)
+- scroll down to 'Github Pages'. Select as source 'Master/docs'.
+
 When happy, commit and push to publish 
 
 ```sh
