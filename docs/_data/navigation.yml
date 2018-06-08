@@ -1,0 +1,44 @@
+
+
+main:
+  - title: "Blogs"
+    url:   /c/posts/
+  - title: "HowTo"
+    url:   /c/howto/intro/
+  - title: "About"
+    url:   /about/
+
+
+
+posts:
+  - title: "See posts ..." 
+    children:
+      - title: "By Date"
+        url: /c/posts/byDate
+      - title: "By Category"
+        url: /c/posts/byCat
+      - title: "By Tag"
+        url: /c/posts/byTag
+  
+  
+
+
+howto:
+  - title: "How To..." 
+    children:
+      - title: "Introduction"
+        url:   /c/howto/intro/
+      - title: "How to manage"
+        url:   /c/howto/manage/
+  - title: "Installation guides"
+    children:
+      - title: "My VMWare Ubuntu"
+        url:   /c/howto/install/vm_ubuntu
+      - title: "Ruby on Ubuntu"
+        url:   /c/howto/install/vm_ubuntu
+      - title: "NodeJS on Ubuntu"
+        url:   /c/howto/install/vm_ubuntu
+      - title: "Python on Ubuntu"
+        url:   /c/howto/install/vm_ubuntu
+
+
